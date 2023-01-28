@@ -49,6 +49,7 @@ command line arguments:
 
 ```sh
 gnome-terminal -- ./producer ALUMINIUM 600 0.6 2000 40
+
 ```
 
 <p align="center" width="100%">
@@ -64,6 +65,10 @@ The consumer is to print the current price of each commodity, along the average 
 While running the consumer, you will specify the following command line argument:
 
 * Bounded-Buffer Size (number of entries); N – an integer.
+
+```sh
+gnome-terminal -- ./consumer 40 
+```
 
 <p align="center" width="100%">
 <img src="Demos/Consumer_code_example.png">
@@ -91,6 +96,7 @@ Have to be on debian-based distro that have apt as it's package manager to run t
 
 ```sh
 sudo apt update && sudo apt install gcc make gnome-terminal
+
 ```
 
 ### Run :green_circle:
@@ -109,6 +115,7 @@ This code is licensed under the MIT License.
 * Marwan Radwan
 
 ### Contribution :clinking_glasses:
+
 Images are provided by [Interviewbit](https://www.interviewbit.com)
 
 Feel free to contribute just make a pull request and do what you wish. 😼
