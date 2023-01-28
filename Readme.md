@@ -121,4 +121,3 @@ Images are provided by [Interviewbit](https://www.interviewbit.com)
 Feel free to contribute just make a pull request and do what you wish. 😼
 
 [![License](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
-![OOP](https://img.shields.io/static/v1?label=OOP&message=none&color=brightgreen)
