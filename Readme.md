@@ -48,7 +48,7 @@ command line arguments:
 * Bounded-Buffer Size (number of entries); N – an integer.
 
 ```sh
-gnome-terminal -- ./producer ALUMINIUM 600 0.6 2000 40
+gnome-terminal -- ./producer ZINC 12 0.5 3200 40
 
 ```
 
