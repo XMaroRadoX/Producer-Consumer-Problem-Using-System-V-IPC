@@ -20,9 +20,10 @@ be achieved using synchronization mechanisms such as semaphores or message queue
 
 #### Solution using system V IPC (Inter Process Communication)
 
-System V IPC (Inter-Process Communication) is a set of inter-process communication mechanisms provided by the System V operating system family, which includes UNIX and Linux. 
+System V IPC (Inter-Process Communication) is a set of inter-process communication mechanisms provided by the System V operating system family, which includes UNIX and Linux.
 
 It includes three main components:
+
 * message queues, which allow processes to send and receive messages
 * semaphores, which provide a mechanism for synchronizing access to shared resources
 * shared memory, which allows multiple processes to share a region of memory.
@@ -34,25 +35,39 @@ activities, and are commonly used in multi-process and multi-threaded applicatio
 ### Code Need to Know 📊
 
 #### Producer
+
 Each producer is supposed to continuously declare the price of one commodity. For simplicity, we assume that each commodity price follows a normal distribution with parameters  (𝜇, 𝜎^2).
 
-While running a producer, you will specify the following 
+While running a producer, you will specify the following
 command line arguments:
+
 * Commodity name (e.g., GOLD – Assume no more than 10 characters.)
 * Commodity Price Mean; 𝜇 – a double value.
 * Commodity Price Standard Deviation; 𝜎 – a double value.
-* Length of the sleep interval in milliseconds; T – an integer. 
+* Length of the sleep interval in milliseconds; T – an integer.
 * Bounded-Buffer Size (number of entries); N – an integer.
 
-**in run.sh you will find already made demo**
+```sh
+gnome-terminal -- ./producer ALUMINIUM 600 0.6 2000 40
+```
 
-#### Consumer 
+<p align="center" width="100%">
+<img src="Demos/Producer_code_example.png">
+</p>
 
-The consumer is to print the current price of each commodity, along the average of the current and past 4 readings. An Up/Down arrow to show whether the current Price (AvgPrice) got increased or decreased from the prior one. 
+**in run.sh you will find already made demo with 10 diffrent producers**
+
+#### Consumer
+
+The consumer is to print the current price of each commodity, along the average of the current and past 4 readings. An Up/Down arrow to show whether the current Price (AvgPrice) got increased or decreased from the prior one.
 
 While running the consumer, you will specify the following command line argument:
+
 * Bounded-Buffer Size (number of entries); N – an integer.
 
+<p align="center" width="100%">
+<img src="Demos/Consumer_code_example.png">
+</p>
 
 ## Table of contents :label:
 
@@ -98,3 +113,4 @@ This code is licensed under the MIT License.
 Feel free to contribute just make a pull request and do what you wish. 😼
 
 [![License](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+![OOP](https://img.shields.io/static/v1?label=OOP&message=none&color=brightgreen)
