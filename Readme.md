@@ -80,7 +80,7 @@ gnome-terminal -- ./consumer 40
 |-----------|--------------------------------------------------------------------------------------------------|
 | [producer.cpp](https://github.com/XMaroRadoX/Producer-Consumer-Problem-Using-System-V-IPC/blob/master/producer.cpp)   | Contians the implementation of producer code using OOP principles|
 | [consumer.cpp](https://github.com/XMaroRadoX/Producer-Consumer-Problem-Using-System-V-IPC/blob/master/consumer.cpp) | Contains the implementation of consumer code using OOP principles            |
-| [Makefile](https://github.com/XMaroRadoX/Matrix-Multipication-using-posix-threads/blob/master/Makefile)  | Used to run the program                                                                          |
+| [Makefile](https://github.com/XMaroRadoX/Producer-Consumer-Problem-Using-System-V-IPC/blob/master/Makefile)  | Used to run the program                                                                          |
 | [run.sh](https://github.com/XMaroRadoX/Producer-Consumer-Problem-Using-System-V-IPC/blob/master/run.sh)| contains run commands used by Makefile|
 
 ### Pre-requisites :screwdriver:
